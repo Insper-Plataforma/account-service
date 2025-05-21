@@ -1,0 +1,10 @@
+site_name: "Documentação Account Service"
+theme:
+  name: material
+  
+nav:
+  - Introdução: index.md
+  - Arquitetura: arquitetura.md
+  - Entidades: entidades.md
+  - Endpoints: endpoints.md
+  - Segurança: seguranca.md
