@@ -5,6 +5,7 @@
 Representa a conta do usuário no domínio da aplicação.
 
 Campos:
+
 - `id`: identificador único
 - `name`: nome do usuário
 - `email`: email de login
@@ -38,6 +39,7 @@ Classe utilitária para conversão:
 Interface que estende `CrudRepository`.
 
 Métodos:
+
 - `findByEmailAndSha256(email, sha256)`
 
 ---
