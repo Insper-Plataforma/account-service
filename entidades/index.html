@@ -492,14 +492,16 @@
 <h1 id="entidades">Entidades</h1>
 <h2 id="account">Account</h2>
 <p>Representa a conta do usuário no domínio da aplicação.</p>
-<p>Campos:
-- <code>id</code>: identificador único
-- <code>name</code>: nome do usuário
-- <code>email</code>: email de login
-- <code>password</code>: senha (em texto puro, usado apenas na criação)
-- <code>sha256</code>: senha criptografada
-- <code>birthdate</code>: data de nascimento
-- <code>creation</code>: data de criação da conta</p>
+<p>Campos:</p>
+<ul>
+<li><code>id</code>: identificador único</li>
+<li><code>name</code>: nome do usuário</li>
+<li><code>email</code>: email de login</li>
+<li><code>password</code>: senha (em texto puro, usado apenas na criação)</li>
+<li><code>sha256</code>: senha criptografada</li>
+<li><code>birthdate</code>: data de nascimento</li>
+<li><code>creation</code>: data de criação da conta</li>
+</ul>
 <hr />
 <h2 id="accountmodel">AccountModel</h2>
 <p>Entidade JPA que representa a tabela <code>account</code> no banco.</p>
@@ -517,8 +519,10 @@
 <hr />
 <h2 id="accountrepository">AccountRepository</h2>
 <p>Interface que estende <code>CrudRepository</code>.</p>
-<p>Métodos:
-- <code>findByEmailAndSha256(email, sha256)</code></p>
+<p>Métodos:</p>
+<ul>
+<li><code>findByEmailAndSha256(email, sha256)</code></li>
+</ul>
 <hr />
 <h2 id="accountservice">AccountService</h2>
 <p>Contém toda a lógica de negócios:</p>
