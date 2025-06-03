@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#arquitetura-do-projeto" class="md-skip">
+        <a href="#arquitetura" class="md-skip">
           Skip to content
         </a>
       
@@ -274,15 +274,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#tecnologias" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tecnologias
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -414,15 +405,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#tecnologias" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tecnologias
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -439,8 +421,7 @@
 
 
 
-<h1 id="arquitetura-do-projeto">Arquitetura do Projeto</h1>
-<p>O <code>account-service</code> segue a arquitetura MVC, utilizando Spring Boot.</p>
+<h1 id="arquitetura">Arquitetura</h1>
 <h2 id="estrutura-de-pastas">Estrutura de Pastas</h2>
 <pre><code class="language-bash">src/main/java/store/account/
 │ ├── Account.java # Entidade de domínio
@@ -450,18 +431,9 @@
 │ ├── AccountService.java # Lógica de negócio
 │ └── AccountResource.java # Controller REST
 └── resources/
-├── application.yaml # Configurações de ambiente
-└── db/migration/ # Scripts Flyway
+│ ├── application.yaml # Configurações de ambiente
+│ └── db/migration/ # Scripts Flyway
 </code></pre>
-<hr />
-<h2 id="tecnologias">Tecnologias</h2>
-<ul>
-<li>Spring Boot</li>
-<li>Spring Data JPA</li>
-<li>PostgreSQL</li>
-<li>Flyway (controle de versionamento de banco)</li>
-<li>Lombok</li>
-</ul>
 
 
 
